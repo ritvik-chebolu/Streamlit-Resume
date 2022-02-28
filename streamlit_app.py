@@ -41,6 +41,9 @@ st.markdown("""
         <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="https://drive.google.com/file/d/19iAkoYvYO6CNMxfLZEOBYZOLeraePJLW/view?usp=sharing">Resume</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#education">Education</a>
       </li>
       <li class="nav-item">
@@ -52,9 +55,6 @@ st.markdown("""
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#work-experience">Work Experience</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#social-media">Social Media</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#courses-and-certifications">Certifications</a>
@@ -108,6 +108,7 @@ def txt4(a, b, c):
 st.markdown('''
 ## Quick Links
 ''')
+txt3('Resume', 'https://drive.google.com/file/d/19iAkoYvYO6CNMxfLZEOBYZOLeraePJLW/view?usp=sharing')
 txt3('LinkedIn', 'https://www.linkedin.com/in/ritvik-chebolu/')
 txt3('GitHub', 'https://github.com/ritvik-chebolu')
 txt3('Twitter', 'https://twitter.com/ritvikteja')
@@ -204,15 +205,6 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Social Media
-''')
-txt2('LinkedIn', 'https://www.linkedin.com/in/ritvik-chebolu/')
-txt2('GitHub', 'https://github.com/ritvik-chebolu')
-txt2('Twitter', 'https://twitter.com/ritvikteja')
-txt2('Email', 'ritvik.teja@gmail.com')
-
-#####################
-st.markdown('''
 ## Courses and Certifications
 ''')
 st.markdown('''
@@ -248,7 +240,7 @@ Data Science Methodologies
 Machine Learning with Python  
 Python for Data Science  
 
-#### GUVI  
+#### GUVI - IIT Madras  
 Descriptive Statistics  
 Engineering Data Science Systems  
 Statistics
