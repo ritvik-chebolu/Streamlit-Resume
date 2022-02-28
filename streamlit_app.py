@@ -222,6 +222,9 @@ Visual Analytics, Database Design Implementation, Software Construction, Foundat
 st.markdown('''
 ### Certifications 
 ''')
+txt3('Link to all the certifications:',
+     '[Certificates](https://drive.google.com/drive/folders/1zeoSvGmipYM5Hw2IStvybJilhFgNT0FR?usp=sharing)')
+
 st.markdown('''
 #### LinkedIn
 Data Ethics - Managing private customer data  
