@@ -108,7 +108,7 @@ def txt4(a, b, c):
 st.markdown('''
 ## Quick Links
 ''')
-txt3('Resume', 'https://drive.google.com/file/d/19iAkoYvYO6CNMxfLZEOBYZOLeraePJLW/view?usp=sharing')
+txt3('Resume', 'https://qrco.de/bcotdy')
 txt3('LinkedIn', 'https://www.linkedin.com/in/ritvik-chebolu/')
 txt3('GitHub', 'https://github.com/ritvik-chebolu')
 txt3('Twitter', 'https://twitter.com/ritvikteja')
