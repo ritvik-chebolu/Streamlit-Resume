@@ -60,6 +60,9 @@ st.markdown("""
         <a class="nav-link" href="#courses-and-certifications">Certifications</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="#positions-of-responsibility">Responsibilities</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#contact-me">Contact</a>
       </li>
     </ul>
@@ -119,14 +122,14 @@ st.markdown('''
 ''')
 
 txt('**Master of Science** (Data Science), *Rochester Institute of Technology*, New York',
-    '2021-Expected 2023')
+    'Aug 2021 - Expected May 2023')
 st.markdown('''
 - GPA: `3.84`
 - Coursework: Foundations of Data Science, Applied Statistics, Database Design Implementation, Software Construction, Visual Analytics
 ''')
 
 txt('**Bachelor of Technology** (Mechanical Engineering), *Indian Institute of Technology Dharwad*, Karnataka, India',
-    '2017-2021')
+    'Aug 2017 - May 2021')
 st.markdown('''
 - GPA: `3.8` (equivalent WES score, 7.78 on a scale of 10)
 - Relevant coursework: Calculus, Linear Algebra, Ordinary Differential Equations, Data Analysis, Numerical Analysis
@@ -140,11 +143,20 @@ st.markdown('''
 txt3('Programming', '`Python`, `SQL`, `Java`, `R`, `C++`, `JavaScript`, `XML`, `MATLAB`')
 txt3('Technologies', '`Tableau`, `Excel`, `MySQL`, `PowerBI`, `Hadoop`, `Microsoft Office`, `Android Studio`')
 txt3('Libraries',
-     '`TensorFlow`, `Keras`, `Scikit Learn`, `OpenCV`, `Streamlit`, `Seaborn`, `plotly`, `Pandas`, `NumPy`, `ggplot2`, `Beautiful Soup`')
+     '`TensorFlow`, `Keras`, `Scikit Learn`, `OpenCV`, `Streamlit`, `Seaborn`, `plotly`, `Pandas`, `NumPy`, '
+     '`ggplot2`, `Beautiful Soup`')
 
 #####################
 st.markdown('''
 ## Projects
+''')
+
+txt('**Sequence Classification using NLP** '
+    '[*Website link*](https://share.streamlit.io/ritvik-chebolu/sentiment-analysis-app/main/Sentiment_Analysis_App.py)',
+    'Mar 2022')
+st.markdown('''
+- Classifying user's input statements based on their polarity and subjectivity scores to get a sense of the user's expression.
+- Built with TextBlob library built on NLTK which has a predefined set of words classified as positive, negative and neutral alonng with a score assigned to each tokenized word.
 ''')
 
 txt('**Acute Ischemic Stroke Prediction** [*GitHub repo link*](https://github.com/ritvik-chebolu/Acute-Ischemic-Stroke-Prediction)',
@@ -197,7 +209,7 @@ st.markdown('''
 ''')
 
 txt('**Internship on Manufacturing Processes**, Visakhapatnam Steel Plant, Visakhapatnam, India',
-    'December 2018')
+    'Dec 2018')
 st.markdown('''
 - Repair analysis for a torpedo ladle car used to carry molten steel from a blast furnace. 
 - Worked with a senior engineer to measure the structural integrity and strength of a torpedo ladle post the welding phase.    
@@ -244,6 +256,39 @@ Python for Data Science
 Descriptive Statistics  
 Engineering Data Science Systems  
 Statistics
+''')
+
+#####################
+st.markdown('''
+## Positions of Responsibility 
+''')
+
+txt('**Public Relations and Outreach Coordinator** for an Entrepreneurship Cell',
+    '2018 - 2021')
+st.markdown('''
+- Sole point of contact to manage public relations with industry experts, guest speakers and university directors
+- Coordinate with Event Management team to host events, talks, competitions and entrepreneurial activities
+- Lead and developed the [Institute Innovation Council at IIT Dharwad](https://www.iitdh.ac.in/iic/) since it was formed in 2018
+''')
+
+txt('**Class Representative** for an Undergraduate Program',
+    '2017 - 2021')
+st.markdown('''
+- Manage the class schedules and events for a Mechanical Engineering undergraduate degree program
+- Co-ordinated with the Dean, professors and students to organize academic and non-academic events
+''')
+
+txt('**Formula Student (FSAE)** for Formula Bharat',
+    '2018 - 2020')
+st.markdown('''
+- Electrical team lead directly managing a team to work on the inner harness and wiring for all electrical elements in the car
+- Co-ordinated with the Dean, professors and students to organize academic and non-academic events
+''')
+
+txt('**Career Development Cell Volunteer**',
+    'Aug 2020')
+st.markdown('''
+- Hosted Career events for undergraduate students to help build connections and establish a network with industry professionals 
 ''')
 
 #####################
