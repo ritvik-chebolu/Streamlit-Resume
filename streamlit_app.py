@@ -17,9 +17,10 @@ st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
-- Seeking internships and co-ops for Summer and/or Fall 2022 
+- Seeking internship/co-op for the Summer and/or Fall 2022 
 - Data Science graduate student at Rochester Institute of Technology, New York
 - Bachelor's degree from Indian Institute of Technology Dharwad (IIT Dharwad)
+- I love playing Football(Soccer), Badminton, Basketball, Cricket and I'm also a Chess geek
 ''')
 
 #####################
