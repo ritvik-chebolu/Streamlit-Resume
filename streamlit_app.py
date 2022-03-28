@@ -152,7 +152,7 @@ st.markdown('''
 ''')
 
 txt('**Sequence Classification using NLP** '
-    '[*Website link*](https://share.streamlit.io/ritvik-chebolu/sentiment-analysis-app/main/Sentiment_Analysis_App.py)',
+    '[*GitHub repo link*](https://github.com/ritvik-chebolu/Sentiment-Analysis-App)',
     'Mar 2022')
 st.markdown('''
 - Classifying user's input statements based on their polarity and subjectivity scores to get a sense of the user's expression.
