@@ -64,6 +64,9 @@ st.markdown("""
         <a class="nav-link" href="#positions-of-responsibility">Responsibilities</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="#activities-and-achievements">Achievements</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#contact-me">Contact</a>
       </li>
     </ul>
@@ -290,6 +293,18 @@ txt('**Career Development Cell Volunteer**',
     'Aug 2020')
 st.markdown('''
 - Hosted Career events for undergraduate students to help build connections and establish a network with industry professionals 
+''')
+
+#####################
+st.markdown('''
+## Activities and Achievements
+''')
+
+st.markdown('''
+- Achieved 4th place in DevHack 2.0 (an annual tech-fest hackathon at IIT Dharwad) for designing a "Smart Closet" that sanitizes and dries laundry in a closet space.
+- Ranked 8th in Chess at the Inter IIT Sports Meet (national inter-college event) at Indian Institute of Technology, Madras, India in December 2017
+- Placed 2nd twice in Inter-Departmental Football League at IIT Dharwad in 2018 and 2020
+- College topper for one of the courses (Mechanical Measurements), which involves data collection and descriptive analysis of the data collected from various experiments and equipment.
 ''')
 
 #####################
