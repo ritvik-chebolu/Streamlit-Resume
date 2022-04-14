@@ -42,7 +42,7 @@ st.markdown("""
         <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://drive.google.com/file/d/19iAkoYvYO6CNMxfLZEOBYZOLeraePJLW/view?usp=sharing">Resume</a>
+        <a class="nav-link" href="shorturl.at/hsBZ4">Resume</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#education">Education</a>
