@@ -17,7 +17,7 @@ st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
-- Seeking internship/co-op for the Summer and/or Fall 2022 
+- Incoming *Data Science Co-op* at *Carrier Global* 
 - Data Science graduate student at Rochester Institute of Technology, New York
 - Bachelor's degree from Indian Institute of Technology Dharwad (IIT Dharwad)
 - I love playing Football(Soccer), Badminton, Basketball, Cricket and I'm also a Chess geek
@@ -301,6 +301,7 @@ st.markdown('''
 ''')
 
 st.markdown('''
+- Bagged 3rd in Intramurals Badminton Tournament (an Inter-RIT league) in April 2022
 - Achieved 4th place in DevHack 2.0 (an annual tech-fest hackathon at IIT Dharwad) for designing a "Smart Closet" that sanitizes and dries laundry in a closet space.
 - Ranked 8th in Chess at the Inter IIT Sports Meet (national inter-college event) at Indian Institute of Technology, Madras, India in December 2017
 - Placed 2nd twice in Inter-Departmental Football League at IIT Dharwad in 2018 and 2020
