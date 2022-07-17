@@ -9,7 +9,7 @@ with open("style.css") as f:
 
 st.write('''
 # Ritvik Chebolu
-##### *M.Sc. in Data Science* 
+##### *M.Sc. in Data Science | Data Scientist (Co-op) at Carrier* 
 ''')
 
 image = Image.open('circle-cropped.png')
@@ -17,10 +17,10 @@ st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
-- Incoming *Data Science Co-op* at *Carrier Global* 
+- *Data Scientist (Co-op)* at *Carrier Corporation* 
 - Data Science graduate student at Rochester Institute of Technology, New York
 - Bachelor's degree from Indian Institute of Technology Dharwad (IIT Dharwad)
-- I love playing Football(Soccer), Badminton, Basketball, Cricket and I'm also a Chess geek
+- A chess geek who also loves playing Football(Soccer), Badminton, Basketball, Cricket and Ping Pong
 ''')
 
 #####################
@@ -50,12 +50,11 @@ st.markdown("""
       <li class="nav-item">
         <a class="nav-link" href="#skills">Skills</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#work-experience">Experience</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#projects">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#work-experience">Work Experience</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#courses-and-certifications">Certifications</a>
@@ -126,9 +125,9 @@ st.markdown('''
 ''')
 
 txt('**Master of Science** (Data Science), *Rochester Institute of Technology*, New York',
-    'Aug 2021 - Expected May 2023')
+    'Aug 2021 - Expected Dec 2023')
 st.markdown('''
-- GPA: `3.84`
+- GPA: `3.56`
 - Coursework: Foundations of Data Science, Applied Statistics, Database Design Implementation, Software Construction, Visual Analytics
 ''')
 
@@ -145,10 +144,44 @@ st.markdown('''
 ## Skills
 ''')
 txt3('Programming', '`Python`, `SQL`, `Java`, `R`, `C++`, `JavaScript`, `XML`, `MATLAB`')
-txt3('Technologies', '`Tableau`, `Excel`, `MySQL`, `PowerBI`, `Hadoop`, `Microsoft Office`, `Android Studio`')
+txt3('Technologies', '`AWS`, `Tableau`, `Excel`, `MySQL`, `PowerBI`, `Hadoop`, `Microsoft Office`, `Android Studio`')
 txt3('Libraries',
      '`TensorFlow`, `Keras`, `Scikit Learn`, `OpenCV`, `Streamlit`, `Seaborn`, `plotly`, `Pandas`, `NumPy`, '
      '`ggplot2`, `Beautiful Soup`')
+
+#####################
+st.markdown('''
+## Experience 
+''')
+
+txt('**Data Scientist (Co-op) at Carrier Corporation**, Pittsford, New York',
+    'May 2022 - Present')
+st.markdown('''
+- Developing and formulating a problem statement by investigation to identify user pain points and decrease customer's investment in security personnel by about $175k annually. 
+- Leveraging data science methodologies to deploy machine learning models which reduce false alarm notifications in security systems by around 38%.
+- Predictive analytics for device health and strategize maintenance shutdowns for security devices and systems.
+''')
+
+txt('**Internship in Thermal Power Plant**, Visakhapatnam Steel Plant, India',
+    'July 2019')
+st.markdown('''
+- Analysis of variation of blade temperature over time for steam and gas turbines.
+- Investigated the velocity flow and temperature profile over the length of the turbine for various turbine lengths and capacities.
+''')
+
+txt('**Steam Turbine Engineering Internship**, Bharat Heavy Electronics Ltd - Hyderabad, India',
+    'May 2019')
+st.markdown('''
+- Analysis of the blade profile variation for a steam turbine over length for various turbine capacities.
+- Understanding the inner workings and control of a Steam Turbine and its operation.
+''')
+
+txt('**Internship on Manufacturing Processes**, Visakhapatnam Steel Plant, India',
+    'Dec 2018')
+st.markdown('''
+- Repair analysis for a torpedo ladle car used to carry molten steel from a blast furnace. 
+- Worked with a senior engineer to measure the structural integrity and strength of a torpedo ladle post the welding phase.    
+''')
 
 #####################
 st.markdown('''
@@ -195,32 +228,6 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Work Experience 
-''')
-
-txt('**Internship in Thermal Power Plant**, Visakhapatnam Steel Plant, Visakhapatnam, India',
-    'July 2019')
-st.markdown('''
-- Analysis of variation of blade temperature over time for steam and gas turbines.
-- Investigated the velocity flow and temperature profile over the length of the turbine for various turbine lengths and capacities.
-''')
-
-txt('**Steam Turbine Engineering Internship**, Bharat Heavy Electronics Ltd - Hyderabad, Hyderabad, India',
-    'May 2019')
-st.markdown('''
-- Analysis of the blade profile variation for a steam turbine over length for various turbine capacities.
-- Understanding the inner workings and control of a Steam Turbine and its operation.
-''')
-
-txt('**Internship on Manufacturing Processes**, Visakhapatnam Steel Plant, Visakhapatnam, India',
-    'Dec 2018')
-st.markdown('''
-- Repair analysis for a torpedo ladle car used to carry molten steel from a blast furnace. 
-- Worked with a senior engineer to measure the structural integrity and strength of a torpedo ladle post the welding phase.    
-''')
-
-#####################
-st.markdown('''
 ## Courses and Certifications
 ''')
 st.markdown('''
@@ -234,6 +241,8 @@ txt3('Link to all the certifications:',
      '[Certificates](https://drive.google.com/drive/folders/1zeoSvGmipYM5Hw2IStvybJilhFgNT0FR?usp=sharing)')
 
 st.markdown('''
+#### AWS (Amazon Web Services)
+AWS Technical Essentials Training 
 #### LinkedIn
 Data Ethics - Managing private customer data  
 Building Analytical Skills with Statistical Analysis  
