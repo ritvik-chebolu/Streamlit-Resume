@@ -42,7 +42,7 @@ st.markdown("""
         <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="shorturl.at/hsBZ4">Resume</a>
+        <a class="nav-link" href="shorturl.at/sRSV4">Resume</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#education">Education</a>
