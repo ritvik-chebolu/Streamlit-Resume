@@ -12,7 +12,7 @@ st.write('''
 ##### *M.Sc. in Data Science | Data Scientist (Co-op) at Carrier* 
 ''')
 
-image = Image.open('circle-cropped.png')
+image = Image.open('circle-cropped.jpeg')
 st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
@@ -42,7 +42,7 @@ st.markdown("""
         <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="shorturl.at/sRSV4">Resume</a>
+        <a class="nav-link" href="shorturl.at/LTUW1">Resume</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#education">Education</a>
@@ -114,7 +114,7 @@ def txt4(a, b, c):
 st.markdown('''
 ## Quick Links
 ''')
-txt3('Resume', 'https://shorturl.at/hsBZ4')
+txt3('Resume', 'https://shorturl.at/LTUW1')
 txt3('LinkedIn', 'https://www.linkedin.com/in/ritvik-chebolu/')
 txt3('GitHub', 'https://github.com/ritvik-chebolu')
 txt3('Twitter', 'https://twitter.com/ritvikteja')
@@ -134,7 +134,7 @@ st.markdown('''
 txt('**Bachelor of Technology** (Mechanical Engineering), *Indian Institute of Technology Dharwad*, Karnataka, India',
     'Aug 2017 - May 2021')
 st.markdown('''
-- GPA: `3.8` (equivalent WES score, 7.78 on a scale of 10)
+- GPA: `3.88` 
 - Relevant coursework: Calculus, Linear Algebra, Ordinary Differential Equations, Data Analysis, Numerical Analysis
 - Research work in the field of computational advanced manufacturing
 ''')
@@ -159,28 +159,33 @@ txt('**Data Scientist (Co-op) at Carrier Corporation**, Pittsford, New York',
 st.markdown('''
 - Developing and formulating a problem statement by investigation to identify user pain points and decrease customer's investment in security personnel by about $175k annually. 
 - Leveraging data science methodologies to deploy machine learning models which reduce false alarm notifications in security systems by around 38%.
+- Analyzing a 330 GB database consisting of a customer's live security monitoring system data collected and utilizing cloud architecture (AWS) to store, clean, process, analyze, transform, predict and finally deploy a machine learning model into production.
 - Predictive analytics for device health and strategize maintenance shutdowns for security devices and systems.
 ''')
 
 txt('**Internship in Thermal Power Plant**, Visakhapatnam Steel Plant, India',
     'July 2019')
 st.markdown('''
+- Dashboard analytics from turbine blades lead to a 12% increase in operational efficiency in terms of response time.
 - Analysis of variation of blade temperature over time for steam and gas turbines.
-- Investigated the velocity flow and temperature profile over the length of the turbine for various turbine lengths and capacities.
+- Inferred and drew plots of theoretical velocity profiles and turbine blade temperatures at different lengths of turbines to validate the data with simulation results from measurement systems. 
+- This intern was closely linked to my previous internship at BHEL Hyderabad because BHEL Hyderabad deals with the manufacturing and assembly phase of Steam turbines whereas this intern throws light on the inner workings (control and operation) of Steam and Gas Turbines and the associated power generation aspects.
 ''')
 
 txt('**Steam Turbine Engineering Internship**, Bharat Heavy Electronics Ltd - Hyderabad, India',
     'May 2019')
 st.markdown('''
-- Analysis of the blade profile variation for a steam turbine over length for various turbine capacities.
-- Understanding the inner workings and control of a Steam Turbine and its operation.
+- Inferential analysis of blade profile to suggest a 3% reduction in fluid drag for 1.4% decrement in overall thermal loss.
+- Analysis of the variation in blade profiles of a turbine over length for various turbine capacities to examine the flow rates, temperature distribution and stress-strain curves from theoretical data.
+- Understanding the inner workings and control of a steam turbines of different capacities and cross-validate their operational parameters with real-time data collected from testing sensors.
 ''')
 
 txt('**Internship on Manufacturing Processes**, Visakhapatnam Steel Plant, India',
     'Dec 2018')
 st.markdown('''
+- Repair analysis for a greensand casting material to replace with a material to speed up molding by 13 seconds/m3.
 - Repair analysis for a torpedo ladle car used to carry molten steel from a blast furnace. 
-- Worked with a senior engineer to measure the structural integrity and strength of a torpedo ladle post the welding phase.    
+- Mechanics involved with part manufacture and assembly fixture for materials with varying compositions and to determine the best material in terms of stress and fatigue levels.
 ''')
 
 #####################
@@ -189,11 +194,19 @@ st.markdown('''
 ''')
 
 txt('**Sequence Classification using NLP** '
-    '[*GitHub repo link*](https://github.com/ritvik-chebolu/Sentiment-Analysis-App)',
+    '[*Sentiment Analysis Web Application*](https://sequence-classification-nlp.streamlitapp.com/)',
     'Mar 2022')
 st.markdown('''
 - Classifying user's input statements based on their polarity and subjectivity scores to get a sense of the user's expression.
 - Built with TextBlob library built on NLTK which has a predefined set of words classified as positive, negative and neutral alonng with a score assigned to each tokenized word.
+''')
+
+txt('**Visual Analytics 2019 (VAST) Challenge**'
+    '[*Disaster Management Analysis Webpage*](https://ritvik-chebolu.github.io/VAST-2019-MC1/)',
+    'Mar 2022')
+st.markdown('''
+- A visual analytics approach to solve a crisis management problem, carry rescue operations and address issues reported in a city.
+- Providing timely updates to rescue teams using interactive radar time-series plots and tableau dashboards for real-time city surveillance and understanding the user (citizens) pain-points from a remote location.
 ''')
 
 txt('**Acute Ischemic Stroke Prediction** [*GitHub repo link*](https://github.com/ritvik-chebolu/Acute-Ischemic-Stroke-Prediction)',
@@ -211,7 +224,7 @@ st.markdown('''
 - Statistical Natural Language Processing using Natural Language Toolkit library (NLTK) to analyze user feedback and determine if they make a positive, negative or neutral sense based on sentiment and polarity scores.  
 ''')
 
-txt('**LinkedIn Social Media Analytics** [*A data visualization hackathon*](https://public.tableau.com/app/profile/ritvik4126/viz/FestMan05-20-2021/Inferences)',
+txt('**LinkedIn Social Media Analytics** [*Tableau Dashboard*](https://public.tableau.com/app/profile/ritvik4126/viz/FestMan05-20-2021/Inferences)',
     'May 2021')
 st.markdown('''
 - Marketing analytics for the LinkedIn social media page of FestMan
