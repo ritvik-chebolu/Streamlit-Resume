@@ -12,7 +12,7 @@ st.write('''
 ##### *M.Sc. in Data Science | Data Scientist (Co-op) at Carrier* 
 ''')
 
-image = Image.open('circle-cropped.jpeg')
+image = Image.open('circle_cropped.png')
 st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
