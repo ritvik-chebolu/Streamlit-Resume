@@ -42,7 +42,7 @@ st.markdown("""
         <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="shorturl.at/LTUW1">Resume</a>
+        <a class="nav-link" href="https://bit.ly/gdrive-resume">Resume</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#education">Education</a>
@@ -51,7 +51,7 @@ st.markdown("""
         <a class="nav-link" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#work-experience">Experience</a>
+        <a class="nav-link" href="#experience">Experience</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#projects">Projects</a>
@@ -114,7 +114,7 @@ def txt4(a, b, c):
 st.markdown('''
 ## Quick Links
 ''')
-txt3('Resume', 'https://shorturl.at/LTUW1')
+txt3('Resume', 'https://bit.ly/gdrive-resume')
 txt3('LinkedIn', 'https://www.linkedin.com/in/ritvik-chebolu/')
 txt3('GitHub', 'https://github.com/ritvik-chebolu')
 txt3('Twitter', 'https://twitter.com/ritvikteja')
@@ -154,16 +154,17 @@ st.markdown('''
 ## Experience 
 ''')
 
-txt('**Data Scientist (Co-op) at Carrier Corporation**, Pittsford, New York',
+txt('**Data Scientist Co-op @ Carrier Corporation**, Pittsford, New York',
     'May 2022 - Present')
 st.markdown('''
 - Developing and formulating a problem statement by investigation to identify user pain points and decrease customer's investment in security personnel by about $175k annually. 
 - Leveraging data science methodologies to deploy machine learning models which reduce false alarm notifications in security systems by around 38%.
+- Worked with the product and business teams, and collaborated with customer's for direct feedback on pain-points to develop an analytical/predictive model using LSTM (Recurrent Neural Network) and a time-series k-means clustering algorithm to detect potential security threats in buildings.
 - Analyzing a 330 GB database consisting of a customer's live security monitoring system data collected and utilizing cloud architecture (AWS) to store, clean, process, analyze, transform, predict and finally deploy a machine learning model into production.
 - Predictive analytics for device health and strategize maintenance shutdowns for security devices and systems.
 ''')
 
-txt('**Internship in Thermal Power Plant**, Visakhapatnam Steel Plant, India',
+txt('**Thermal Power Plant Intern @ Visakhapatnam Steel Plant**, India',
     'July 2019')
 st.markdown('''
 - Dashboard analytics from turbine blades lead to a 12% increase in operational efficiency in terms of response time.
@@ -172,7 +173,7 @@ st.markdown('''
 - This intern was closely linked to my previous internship at BHEL Hyderabad because BHEL Hyderabad deals with the manufacturing and assembly phase of Steam turbines whereas this intern throws light on the inner workings (control and operation) of Steam and Gas Turbines and the associated power generation aspects.
 ''')
 
-txt('**Steam Turbine Engineering Internship**, Bharat Heavy Electronics Ltd - Hyderabad, India',
+txt('**Steam Turbine Engineering Intern @ Bharat Heavy Electronics Ltd**, Hyderabad, India',
     'May 2019')
 st.markdown('''
 - Inferential analysis of blade profile to suggest a 3% reduction in fluid drag for 1.4% decrement in overall thermal loss.
@@ -180,10 +181,10 @@ st.markdown('''
 - Understanding the inner workings and control of a steam turbines of different capacities and cross-validate their operational parameters with real-time data collected from testing sensors.
 ''')
 
-txt('**Internship on Manufacturing Processes**, Visakhapatnam Steel Plant, India',
+txt('**Manufacturing Engineering Intern @ Visakhapatnam Steel Plant**, India',
     'Dec 2018')
 st.markdown('''
-- Repair analysis for a greensand casting material to replace with a material to speed up molding by 13 seconds/m3.
+- Repair analysis for a green sand casting material to replace with a material to speed up molding by 13 seconds/m3.
 - Repair analysis for a torpedo ladle car used to carry molten steel from a blast furnace. 
 - Mechanics involved with part manufacture and assembly fixture for materials with varying compositions and to determine the best material in terms of stress and fatigue levels.
 ''')
@@ -289,32 +290,39 @@ st.markdown('''
 ## Positions of Responsibility 
 ''')
 
+txt('**Speaker Support Lead** at **Open Data Science Conference (ODSC) West 2023**',
+    'Nov 2022')
+st.markdown('''
+- Helped set up speaker sessions for ODSC West 2023 along with other fun networking events for the attendees and speakers at the conference.
+- Hosted the ODSC West '23 conference collaborating with the event staff to ensure speaker's readiness before talks.
+''')
+
 txt('**Public Relations and Outreach Coordinator** for an Entrepreneurship Cell',
     '2018 - 2021')
 st.markdown('''
-- Sole point of contact to manage public relations with industry experts, guest speakers and university directors
-- Coordinate with Event Management team to host events, talks, competitions and entrepreneurial activities
-- Lead and developed the [Institute Innovation Council at IIT Dharwad](https://www.iitdh.ac.in/iic/) since it was formed in 2018
+- Sole point of contact to manage public relations with industry experts, guest speakers and university directors.
+- Coordinate with Event Management team to host events, talks, competitions and entrepreneurial activities.
+- Lead and developed the [Institute Innovation Council at IIT Dharwad](https://www.iitdh.ac.in/iic/) since it was formed in 2018.
 ''')
 
 txt('**Class Representative** for an Undergraduate Program',
     '2017 - 2021')
 st.markdown('''
-- Manage the class schedules and events for a Mechanical Engineering undergraduate degree program
-- Co-ordinated with the Dean, professors and students to organize academic and non-academic events
+- Manage the class schedules and events for a Mechanical Engineering undergraduate degree program.
+- Co-ordinated with the Dean, professors and students to organize academic and non-academic events.
 ''')
 
 txt('**Formula Student (FSAE)** for Formula Bharat',
     '2018 - 2020')
 st.markdown('''
-- Electrical team lead directly managing a team to work on the inner harness and wiring for all electrical elements in the car
-- Co-ordinated with the Dean, professors and students to organize academic and non-academic events
+- Electrical team lead directly managing a team to work on the inner harness and wiring for all electrical elements in the car.
+- Co-ordinated with the Dean, professors and students to organize academic and non-academic events.
 ''')
 
 txt('**Career Development Cell Volunteer**',
     'Aug 2020')
 st.markdown('''
-- Hosted Career events for undergraduate students to help build connections and establish a network with industry professionals 
+- Hosted Career events for undergraduate students to help build connections and establish a network with industry professionals.
 ''')
 
 #####################
@@ -323,10 +331,10 @@ st.markdown('''
 ''')
 
 st.markdown('''
-- Bagged 3rd in Intramurals Badminton Tournament (an Inter-RIT league) in April 2022
+- Bagged 3rd in Intramurals Badminton Tournament (an Inter-RIT league) in April 2022.
 - Achieved 4th place in DevHack 2.0 (an annual tech-fest hackathon at IIT Dharwad) for designing a "Smart Closet" that sanitizes and dries laundry in a closet space.
-- Ranked 8th in Chess at the Inter IIT Sports Meet (national inter-college event) at Indian Institute of Technology, Madras, India in December 2017
-- Placed 2nd twice in Inter-Departmental Football League at IIT Dharwad in 2018 and 2020
+- Ranked 8th in Chess at the Inter IIT Sports Meet (national inter-college event) at Indian Institute of Technology, Madras, India in December 2017.
+- Placed 2nd twice in Inter-Departmental Football League at IIT Dharwad in 2018 and 2020.
 - College topper for one of the courses (Mechanical Measurements), which involves data collection and descriptive analysis of the data collected from various experiments and equipment.
 ''')
 
@@ -337,5 +345,5 @@ st.markdown('''
 st.markdown('''
 Got a catchy idea for a project collab or want to get in touch to know more about my interests?   
 Hit me up! I'm all ears.   
-Email me at ritvik.teja@gmail.com   
+Email me at ritvik.teja@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/ritvik-chebolu) ^_^
 ''')
