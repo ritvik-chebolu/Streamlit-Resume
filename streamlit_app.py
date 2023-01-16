@@ -9,7 +9,7 @@ with open("style.css") as f:
 
 st.write('''
 # Ritvik Chebolu
-##### *M.Sc. in Data Science | Data Scientist (Co-op) at Carrier* 
+##### *M.Sc. in Data Science | Ex-Data Scientist (Co-op) at Carrier* 
 ''')
 
 image = Image.open('circle_cropped.png')
@@ -17,8 +17,8 @@ st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
-- *Data Scientist (Co-op)* at *Carrier Corporation* 
-- Data Science graduate student at Rochester Institute of Technology, New York
+- Data Science graduate student at Rochester Institute of Technology, New York, USA
+- *Pervious Data Scientist (Co-op)* at *Carrier Corporation* 
 - Bachelor's degree from Indian Institute of Technology Dharwad (IIT Dharwad)
 - A chess geek who also loves playing Football(Soccer), Badminton, Basketball, Cricket and Ping Pong
 ''')
@@ -209,7 +209,7 @@ st.markdown('''
 - Built with TextBlob library built on NLTK which has a predefined set of words classified as positive, negative and neutral alonng with a score assigned to each tokenized word.
 ''')
 
-txt('**Visual Analytics 2019 (VAST) Challenge**'
+txt('**Visual Analytics 2019 (VAST) Challenge** '
     '[*Disaster Management Analysis Webpage*](https://ritvik-chebolu.github.io/VAST-2019-MC1/)',
     'Mar 2022')
 st.markdown('''
@@ -270,15 +270,15 @@ txt3('Link to all the certifications:',
 
 st.markdown('''
 #### AWS (Amazon Web Services)
-AWS Technical Essentials Training 
+AWS Technical Essentials Training  
 #### Carrier
-Professional Scrum Master Certification
+Professional Scrum Master Certification  
 #### LinkedIn
-Advanced AI: Transformers for NLP using Large Language Models
-Transformers: Text Classification for NLP using BERT 
-Data Analytics: Dashboards vs. Data Stories
-Data Analytics: Graph Analytics
-Data Visualization: Storytelling
+Advanced AI: Transformers for NLP using Large Language Models  
+Transformers: Text Classification for NLP using BERT  
+Data Analytics: Dashboards vs. Data Stories  
+Data Analytics: Graph Analytics  
+Data Visualization: Storytelling  
 Data Ethics - Managing private customer data  
 Building Analytical Skills with Statistical Analysis  
 Advanced SQL for Data Scientists  
@@ -352,7 +352,8 @@ st.markdown('''
 ''')
 
 st.markdown('''
-- Bagged 3rd in Intramurals Badminton Tournament (an Inter-RIT league) in April 2022.
+- Runner's Up for the Men's Doubles category in Intramurals Badminton Tournament (an RIT league) in Novemeber 2022 and chosen to be a Varisty Athlete until the 2023 season. 
+- Bagged 3rd for the Men's Doubles category in Intramurals Badminton Tournament (an RIT league) in April 2022.
 - Achieved 4th place in DevHack 2.0 (an annual tech-fest hackathon at IIT Dharwad) for designing a "Smart Closet" that sanitizes and dries laundry in a closet space.
 - Ranked 8th in Chess at the Inter IIT Sports Meet (national inter-college event) at Indian Institute of Technology, Madras, India in December 2017.
 - Placed 2nd twice in Inter-Departmental Football League at IIT Dharwad in 2018 and 2020.
