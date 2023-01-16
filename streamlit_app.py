@@ -18,7 +18,7 @@ st.image(image, width=150)
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
 - Data Science graduate student at Rochester Institute of Technology, New York, USA
-- *Previous Data Scientist Co-op* at *Carrier Corporation* 
+- Previous Data Scientist Co-op at Carrier Corporation
 - Bachelor's degree from Indian Institute of Technology Dharwad (IIT Dharwad)
 - A chess geek who also loves playing Football(Soccer), Badminton, Basketball, Cricket and Ping Pong
 ''')
