@@ -128,7 +128,7 @@ txt('**Master of Science** (Data Science), *Rochester Institute of Technology*, 
     'Aug 2021 - Expected Dec 2023')
 st.markdown('''
 - GPA: `3.56`
-- Coursework: Foundations of Data Science, Applied Statistics, Database Design Implementation, Software Construction, Visual Analytics
+- Coursework: Foundations of Data Science, Applied Statistics, Database Design Implementation, Software Construction, Visual Analytics, Applied Data Science, Software Engineering for Data Science, Non-Relational Data Management
 ''')
 
 txt('**Bachelor of Technology** (Mechanical Engineering), *Indian Institute of Technology Dharwad*, Karnataka, India',
@@ -154,8 +154,15 @@ st.markdown('''
 ## Experience 
 ''')
 
+txt('**Junior Machine Learning Engineer @ Omdena - (Open Source Contribution)**, Remote',
+    'Dec 2022 - Jan 2022')
+st.markdown('''
+- Contributed to the development of a Recommendation Engine to create a self learning user experience with relevant chess puzzles for beginners to mid-level players on the ChessX platform.
+- Developed a Machine Learning model using player stats and game history in a vectorized format to match with the most relevant puzzles and game analysis.
+''')
+
 txt('**Data Scientist Co-op @ Carrier Corporation**, Pittsford, New York',
-    'May 2022 - Present')
+    'May 2022 - Nov 2022')
 st.markdown('''
 - Developing and formulating a problem statement by investigation to identify user pain points and decrease customer's investment in security personnel by about $175k annually. 
 - Leveraging data science methodologies to deploy machine learning models which reduce false alarm notifications in security systems by around 38%.
@@ -164,7 +171,7 @@ st.markdown('''
 - Predictive analytics for device health and strategize maintenance shutdowns for security devices and systems.
 ''')
 
-txt('**Thermal Power Plant Intern @ Visakhapatnam Steel Plant**, India',
+txt('**Thermal Engineering Intern @ Visakhapatnam Steel Plant**, India',
     'July 2019')
 st.markdown('''
 - Dashboard analytics from turbine blades lead to a 12% increase in operational efficiency in terms of response time.
@@ -225,6 +232,13 @@ st.markdown('''
 - Statistical Natural Language Processing using Natural Language Toolkit library (NLTK) to analyze user feedback and determine if they make a positive, negative or neutral sense based on sentiment and polarity scores.  
 ''')
 
+txt('**Customer Behavior Pattern Analysis for Revenue Generation** '
+    '[*Tableau Dashboard*](https://public.tableau.com/app/profile/ritvik7660/viz/CustomerRevenueAnalysis_16727974077450/RevenueAnalysis)',
+    'Nov 2021')
+st.markdown('''
+- Assembled a Tableau dashboard to analyze revenue generation using data on customer behavior and purchase patterns to identify growth opportunities and supply chain trends.
+''')
+
 txt('**LinkedIn Social Media Analytics** [*Tableau Dashboard*](https://public.tableau.com/app/profile/ritvik4126/viz/FestMan05-20-2021/Inferences)',
     'May 2021')
 st.markdown('''
@@ -257,7 +271,14 @@ txt3('Link to all the certifications:',
 st.markdown('''
 #### AWS (Amazon Web Services)
 AWS Technical Essentials Training 
+#### Carrier
+Professional Scrum Master Certification
 #### LinkedIn
+Advanced AI: Transformers for NLP using Large Language Models
+Transformers: Text Classification for NLP using BERT 
+Data Analytics: Dashboards vs. Data Stories
+Data Analytics: Graph Analytics
+Data Visualization: Storytelling
 Data Ethics - Managing private customer data  
 Building Analytical Skills with Statistical Analysis  
 Advanced SQL for Data Scientists  
@@ -345,5 +366,5 @@ st.markdown('''
 st.markdown('''
 Got a catchy idea for a project collab or want to get in touch to know more about my interests?   
 Hit me up! I'm all ears.   
-Email me at ritvik.teja@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/ritvik-chebolu) ^_^
+Email me at ritvik.teja@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/ritvik-chebolu) ^_~
 ''')
