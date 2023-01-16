@@ -9,7 +9,7 @@ with open("style.css") as f:
 
 st.write('''
 # Ritvik Chebolu
-##### *M.Sc. in Data Science | Ex-Data Scientist (Co-op) at Carrier* 
+##### *M.Sc. in Data Science | Previous Data Scientist Co-op at Carrier Corp.* 
 ''')
 
 image = Image.open('circle_cropped.png')
@@ -18,7 +18,7 @@ st.image(image, width=150)
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
 - Data Science graduate student at Rochester Institute of Technology, New York, USA
-- *Pervious Data Scientist (Co-op)* at *Carrier Corporation* 
+- *Previous Data Scientist Co-op* at *Carrier Corporation* 
 - Bachelor's degree from Indian Institute of Technology Dharwad (IIT Dharwad)
 - A chess geek who also loves playing Football(Soccer), Badminton, Basketball, Cricket and Ping Pong
 ''')
@@ -154,8 +154,7 @@ st.markdown('''
 ## Experience 
 ''')
 
-txt('**Junior Machine Learning Engineer @ Omdena - (Open Source Contribution)**, Remote',
-    'Dec 2022 - Jan 2022')
+txt('**Junior Machine Learning Engineer @ Omdena - (Open Source Contribution)**', 'Dec 2022 - Jan 2023')
 st.markdown('''
 - Contributed to the development of a Recommendation Engine to create a self learning user experience with relevant chess puzzles for beginners to mid-level players on the ChessX platform.
 - Developed a Machine Learning model using player stats and game history in a vectorized format to match with the most relevant puzzles and game analysis.
