@@ -19,6 +19,7 @@ st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
 - Data Science graduate student at Rochester Institute of Technology, New York, USA
 - Previous Data Scientist Co-op at Carrier Corporation
+- Graduate Teaching Assistant at RIT
 - Bachelor's degree from Indian Institute of Technology Dharwad (IIT Dharwad)
 - A chess geek who also loves playing Football(Soccer), Badminton, Basketball, Cricket and Ping Pong
 ''')
@@ -152,6 +153,12 @@ txt3('Libraries',
 #####################
 st.markdown('''
 ## Experience 
+''')
+
+txt('**Graduate Teaching Assistant @ RIT**', 'Jan 2023 - Present')
+st.markdown('''
+- Teaching Assistant for the courses `Database Design Implementation` (ISTE 608) and `Data Modeling` (ISTE 230) at RIT.
+- Grading assignments, holding office hours, and assisting 50 students with their coursework.
 ''')
 
 txt('**Junior Machine Learning Engineer @ Omdena - (Open Source Contribution)**', 'Dec 2022 - Jan 2023')
