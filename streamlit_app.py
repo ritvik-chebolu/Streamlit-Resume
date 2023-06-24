@@ -9,7 +9,7 @@ with open("style.css") as f:
 
 st.write('''
 # Ritvik Chebolu
-##### *M.Sc. in Data Science | Previous Data Scientist Co-op at Carrier Corp.* 
+##### *M.Sc. in Data Science | Business Analyst Co-op at Wayfair* 
 ''')
 
 image = Image.open('circle_cropped.png')
@@ -18,8 +18,9 @@ st.image(image, width=150)
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
 - Data Science graduate student at Rochester Institute of Technology, New York, USA
-- Previous Data Scientist Co-op at Carrier Corporation
-- Graduate Teaching Assistant at RIT
+- Business Analyst Co-op at Wayfair
+- Ex-Data Scientist Co-op at Carrier Corporation
+- Previous Graduate Teaching Assistant at RIT
 - Bachelor's degree from Indian Institute of Technology Dharwad (IIT Dharwad)
 - A chess geek who also loves playing Football(Soccer), Badminton, Basketball, Cricket and Ping Pong
 ''')
@@ -116,7 +117,8 @@ st.markdown('''
 ## Quick Links
 ''')
 txt3('Resume', 'https://bit.ly/gdrive-resume')
-txt3('LinkedIn', 'https://www.linkedin.com/in/ritvik-chebolu/')
+txt3('LinkedIn', 'https://www.linkedin.com/in/ritvik-chebolu')
+txt3('Substack', 'https://ritvikchebolu.substack.com')
 txt3('GitHub', 'https://github.com/ritvik-chebolu')
 txt3('Twitter', 'https://twitter.com/ritvikteja')
 
@@ -126,10 +128,10 @@ st.markdown('''
 ''')
 
 txt('**Master of Science** (Data Science), *Rochester Institute of Technology*, New York',
-    'Aug 2021 - Expected Dec 2023')
+    'Aug 2021 - May 2024')
 st.markdown('''
-- GPA: `3.56`
-- Coursework: Foundations of Data Science, Applied Statistics, Database Design Implementation, Software Construction, Visual Analytics, Applied Data Science, Software Engineering for Data Science, Non-Relational Data Management
+- GPA: `3.70`
+- Coursework: Applied Data Science, Information Retrieval and Text Mining, Software Engineering for Data Science, Non-Relational Data Management, Database Design Implementation, Data Management and Analytics, Foundations of Data Science and Analytics, Applied Statistics, Software Construction, Visual Analytics
 ''')
 
 txt('**Bachelor of Technology** (Mechanical Engineering), *Indian Institute of Technology Dharwad*, Karnataka, India',
@@ -145,7 +147,7 @@ st.markdown('''
 ## Skills
 ''')
 txt3('Programming', '`Python`, `SQL`, `Java`, `R`, `C++`, `JavaScript`, `XML`, `MATLAB`')
-txt3('Technologies', '`AWS`, `Tableau`, `Excel`, `MySQL`, `PowerBI`, `Hadoop`, `Microsoft Office`, `Android Studio`')
+txt3('Technologies', '`AWS`, `Tableau`, `Excel`, `MySQL`, `PowerBI`, `Microsoft Office`, `Android Studio`')
 txt3('Libraries',
      '`TensorFlow`, `Keras`, `Scikit Learn`, `OpenCV`, `Streamlit`, `Seaborn`, `plotly`, `Pandas`, `NumPy`, '
      '`ggplot2`, `Beautiful Soup`')
@@ -155,7 +157,14 @@ st.markdown('''
 ## Experience 
 ''')
 
-txt('**Graduate Teaching Assistant @ RIT**', 'Jan 2023 - Present')
+txt('**Auxiliary Services Analyst @ RIT**', 'May 2023 - June 2023')
+st.markdown('''
+- Cleaning duplicated data records from the RIT Dining Services database for usage analysis.
+- Extending Technical Support to the dining cafes by accessing their software to create, update and delete items from the menus.
+- Developing an end-to-end framework to set up kiosks in dining areas, and assist with hardware and software installation.
+''')
+
+txt('**Graduate Teaching Assistant @ RIT**', 'Jan 2023 - May 2023')
 st.markdown('''
 - Teaching Assistant for the courses `Database Design Implementation` (ISTE 608) and `Data Modeling` (ISTE 230) at RIT.
 - Grading assignments, holding office hours, and assisting 50 students with their coursework.
@@ -205,6 +214,17 @@ st.markdown('''
 #####################
 st.markdown('''
 ## Projects
+''')
+
+
+
+
+
+
+txt('**National Hockey League Database Application Design** ',
+    'May 2023')
+st.markdown('''
+- Developed an end-to-end database application with views, reports, forms and dashboards to store and display information about NHL season games.
 ''')
 
 txt('**Sequence Classification using NLP** '
@@ -266,7 +286,7 @@ st.markdown('''
 ''')
 st.markdown('''
 ### Relevant Coursework and Expertise
-Visual Analytics, Database Design Implementation, Software Construction, Foundations of Data Science and Analytics, Applied Statistics, Computer Programming using C++, Calculus, Linear Algebra, Ordinary Differential Equations, Data Analysis, Numerical Analysis, Probability and Statistics
+Prompt Engineering for Developers, Visual Analytics, Database Design Implementation, Software Construction, Foundations of Data Science and Analytics, Applied Statistics, Computer Programming using C++, Calculus, Linear Algebra, Ordinary Differential Equations, Data Analysis, Numerical Analysis, Probability and Statistics
 ''')
 st.markdown('''
 ### Certifications 
@@ -277,8 +297,10 @@ txt3('Link to all the certifications:',
 st.markdown('''
 #### AWS (Amazon Web Services)
 AWS Technical Essentials Training  
+
 #### Carrier
 Professional Scrum Master Certification  
+
 #### LinkedIn
 Advanced AI: Transformers for NLP using Large Language Models  
 Transformers: Text Classification for NLP using BERT  
